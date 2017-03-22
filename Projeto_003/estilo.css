@@ -1,0 +1,56 @@
+body{
+    background-color:#745cc1;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+}
+
+img {
+    margin-top: 65px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+        
+    
+}
+
+#Iemail, #Ipassword {
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 1px #fff;
+    font-family: 'roboto', sans-serif;
+    font-weight:300;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    
+}
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+#Ilogin {
+    margin-bottom: 5px;
+    border-radius: 40px;
+    height: 50px;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px #000;
+    border: none;
+    font-family: 'roboto', sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    color: #39393a;
+}
+
+form{
+    padding: 60px 60px 5px 60px;
+}
+
+a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: 0px 1px 1px #000;
+    text-decoration: none;
+}
