@@ -9,7 +9,7 @@ li {
     padding: 60px 40px 60px 100px;
     background-color: #4a4a4a;
     margin-bottom: 4px;
-    background-image: url(_imagens/done---1477--copy-3.png);
+    background-image: url(../_imagens/done---1477--copy-3.png);
     background-repeat: no-repeat;
     background-position: 40px center ;
     
@@ -22,7 +22,7 @@ li:hover {
 
 li#done {
     background-color: #27ae60;
-    background-image:url(_imagens/done---1477-.png);
+    background-image:url(../_imagens/done---1477-.png);
 
 }
 
@@ -40,7 +40,7 @@ a {
     letter-spacing: 2px;
     font-weight: 500;
     text-transform: uppercase;
-    background-image: url(_imagens/arrow-right---336-.png);
+    background-image: url(../_imagens/arrow-right---336-.png);
     background-repeat: no-repeat;
     background-position: right center;
     -webkit-font-smoothing: antialiased;
