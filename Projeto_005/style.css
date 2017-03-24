@@ -1,0 +1,63 @@
+
+
+body {
+    background-color: #9b9b9b;
+    padding: 95px;
+    
+        
+}
+
+
+div {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 2 5 #000;
+}
+
+caption {
+    background-color: #fff;
+    padding: 25px 25px 25px 15px;
+    text-align: left;
+    font-family: 'roboto',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+td, th{
+    padding: 15px 33px 15px 33px;
+    white-space: nowrap;
+    border-bottom: solid 2px #979797;
+    
+    
+}
+
+tr:hover {
+    background-color: #eeeeee;
+}
+    
+table {
+    
+    background-color: #fff;
+   
+    border-collapse: collapse;
+        
+}    
+    
+
+.footer {
+    background-color: #fff;
+    padding: 25px 90px 25px 25px;
+    text-align: right;
+    background: url(icon%20left.png) no-repeat 95% 50%, url(icon%20right.png) no-repeat 98% 50%;
+    white-space: nowrap;
+    font-family: 'roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #606060;
+    
+    
+    
+    
+     
+}
