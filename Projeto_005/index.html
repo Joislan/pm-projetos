@@ -10,11 +10,11 @@
     </head>
     
     <body>
-        <div style="overflow-x:auto;">
+        
         <table>
             <caption>Relatório de Faturamento</caption>
-            <tr class="columns">
-                    <td><input type="checkbox"></td>
+            <thead>
+                    <th><input type="checkbox"></th>
                     <th>Coluna 1</th>
                     <th>Coluna 2</th>
                     <th>Coluna 3</th>
@@ -23,7 +23,7 @@
                     <th>Coluna 6</th>
                     <th>Coluna 7</th>
                     <th>Coluna 8</th>
-            </tr>
+            </thead>
             <tr>
                 <td><input type="checkbox"></td><td>Texto A </td>
                 <td>Texto B</td>
@@ -134,23 +134,23 @@
                 <td>Texto G</td>
                 <td>Texto H</td>
             </tr>
-            
-            
-        </table>
-            <div class="footer">
-                <span class="registros">REGISTROS POR PÁGINA:
+            <tfoot>
+                <td colspan="9">
+                    REGISTROS POR PÁGINA:
                     <select>
                         <option value="10">10</option>
                         <option value="20">20</option>
                         <option value="30">30</option>
                     </select>
-                </span>
-                <span class="number">
-                    1-10 de 100
-                </span>
-                
-            </div>    
-        </div>
+                    <span>1-10 de 100</span>
+                    <a href="#"><img src="icon%20left.png"></a>
+                    <a href="#"><img src="icon%20right.png"></a>
+                </td>
+            </tfoot>
+            
+        </table>
+               
+        
         
     </body>
           

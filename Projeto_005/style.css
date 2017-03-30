@@ -1,63 +1,62 @@
-
-
 body {
     background-color: #9b9b9b;
-    padding: 95px;
-    
-        
+    padding: 90px;
+    font-family: 'roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    -webkit-fontsmooth: antialiased;
 }
 
-
-div {
+table {
     background-color: #fff;
-    text-align: center;
-    border-radius: 3px;
-    box-shadow: 0 2 5 #000;
-}
-
-caption {
-    background-color: #fff;
-    padding: 25px 25px 25px 15px;
+    width: 100%;
     text-align: left;
-    font-family: 'roboto',sans-serif;
-    font-weight: 500;
+    border-spacing: 0;
+    border-radius: 0px 0px 3px 3px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .3 );
+}
+
+table caption {
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
     font-size: 20px;
+    font-weight: 500;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: 0px -2px -5px rgba(0, 0, 0, .3 );
 }
 
-td, th{
-    padding: 15px 33px 15px 33px;
-    white-space: nowrap;
-    border-bottom: solid 2px #979797;
-    
-    
+table td, th {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 20px;
+    text-align: center;
 }
 
-tr:hover {
+table tr:hover {
     background-color: #eeeeee;
 }
-    
-table {
-    
-    background-color: #fff;
-   
-    border-collapse: collapse;
-        
-}    
-    
 
-.footer {
-    background-color: #fff;
-    padding: 25px 90px 25px 25px;
+tfoot td {
+    border: none;
     text-align: right;
-    background: url(icon%20left.png) no-repeat 95% 50%, url(icon%20right.png) no-repeat 98% 50%;
-    white-space: nowrap;
-    font-family: 'roboto', sans-serif;
     font-size: 12px;
-    font-weight: 400;
-    color: #606060;
-    
-    
-    
-    
-     
+    opacity: .5;
 }
+
+select {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    
+}
+
+span {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
