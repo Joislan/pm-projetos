@@ -1,0 +1,164 @@
+body {
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: right;   
+}
+
+
+nav {
+    padding: 10px 150px 20px 150px;
+    background-image: url(Imagens/Logo%20titum.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: -20px 200px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+nav ul li:hover {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+nav a {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+}
+
+section#home {
+    width: 100%;
+    height: 828px;
+    background-image: url(Imagens/background%20home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#texto1 {
+    text-align: center;
+    padding-top: 200px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding-right: 500px;
+    
+}
+
+#texto1 h1 {
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-weight: 400;
+}
+#texto1 h2 {
+    font-size: 36px;
+    margin: 0px;
+    font-weight: 300;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+#texto1 span {
+    background-color: #ff3d7f;
+    padding: 17px 150px;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0, 6, 2, 0, #a32751;
+        
+}
+
+a {
+    text-decoration: none;
+}
+
+#conheca {
+    width: 100%;
+    height: 540px;
+    background-image: url(Imagens/image%20section%202.png);
+    background-repeat: no-repeat;
+    background-position:200px 80px; 
+}
+
+ #texto2 {
+    padding: 100px 200px 100px 650px
+    
+}
+
+#texto2 h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#texto2 p {
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+#texto2 span {
+    background-color: #ff3d7f;
+    padding: 17px 30px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    box-shadow: 0, 6, 2, #a32751;
+    border: 1px solid #ff3d7f;
+}
+
+#depoimentos {
+    width: 100%;
+    height: 439px;
+    background-color: #ebe7fb;
+    text-align: center;
+}
+
+#texto3 {
+    padding: 100px 200px;
+    font-size: 24px;
+}
+
+#texto3 span {
+    font-weight: 700;
+}
+
+#convite {
+    width: 100%;
+    height: 424px;
+    background-image: url(Imagens/background%20invite.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+}
+
+input{
+    width: 641px;
+    height: 120px;
+    background-color: rgba(255,255,255,0.8);
+    border: none;
+    margin-top: 152px;
+    background-image: url(Imagens/invite%20icon.png);
+    background-repeat: no-repeat;
+    background-position: 530px center;
+    text-align: center;
+    
+    
+}
+
+input::-webkit-input-placeholder {
+        font-size:20px;
+        
+      }
