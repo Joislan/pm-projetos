@@ -1,0 +1,322 @@
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+body .fundo {
+    
+    background-image: url(Imagens/fundo.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body .fundo .container {
+    width: 688px;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3)
+    
+}
+
+.container header {
+    height: 40px;
+    width: 100%;
+    background-color: #fff;;
+    display: flex;
+    align-items: center;
+    background-image: url(Imagens/fecha.png);
+    background-repeat: no-repeat;
+    background-position: center right 15px;
+    
+    
+}
+
+.container header h2 {
+    font-family: 'AvenirLTStd-Heavy', sans-serif;
+    color:#5e5f5f;
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+
+.container header ul {
+    list-style: none;
+    
+}
+
+.container header li {
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'AvenirLTStd-Roman', sans-serif;
+    color: #9c9c9c;
+    font-weight: 500;
+    
+}
+
+.container header li.intervalo {
+    color: #2d2d2d;
+    font-family: 'AvenirLTStd-Heavy', sans-serif;
+    font-weight: 600;
+}
+
+section {
+    width: 381px;
+    height: 508px;
+    float: left;
+}
+
+section h2 {
+    font-size: 16px;
+    font-family: 'AvenirLTStd-Roman', sans-serif;
+    font-weight: 500;
+    color: #777879;
+    margin-left: 20px;
+}
+
+section ul.bandeiras {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: -20px;
+    
+}
+
+section ul.bandeiras li {
+    display: inline-block;
+    width: 109px;
+    height: 96px;
+    margin-bottom: 0;
+}
+
+section ul.bandeiras li a {
+    width: 109px;
+    height: 96px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: 'AvenirLTStd-Roman', sans-serif;
+    color:#c6c6c6;
+    
+}
+
+section ul.bandeiras li a small {
+    margin-top: 5px;
+}
+
+
+section ul.bandeiras li a img {
+    width: 73px;
+    height: 48px;
+}
+
+section h2.newcard {
+    border-bottom: 1px solid #eaeaea;
+    padding: 5px;
+    width: 320px;
+    
+}
+
+section ul.form {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+section ul.form li input {
+    width: 270px;
+    height: 40px;
+    margin-bottom: 26px;
+    border-radius: 2px;
+    border: 1px solid #dfdfdf;
+    
+}
+
+section ul.form li input.vencimento {
+    width: 149px;
+    margin-right: 26px;
+}
+
+section ul.form li input.ok {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    
+}
+
+section ul.form li label {
+    font-size: 14px;
+    color: #777879;
+} 
+
+::-webkit-input-placeholder {
+    color: #c4cbd0;
+    font-size: 14px;
+    font-family: 'AvenirLTStd-Roman', sans-serif;
+    padding-left: 15px;
+}
+
+button {
+    width: 289px;
+    height: 44px;
+    background-color: #8bd638;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'AvenirLTStd-Heavy', sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: -50px;
+    border-radius: 2px;
+    border: none;
+}
+
+section ul.form li input.cvc {
+    width: 96px;
+    
+}
+
+aside {
+    height: 508px;
+    width: 299px;
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-right: 5px;
+}
+
+aside ul.produtos {
+    padding: 0;
+}
+
+aside ul.produtos li {
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+
+}
+
+aside ul.produtos li small {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+aside ul.produtos li p {
+    margin-left: 60px;
+    font-size: 10px;
+    color: #9c9c9c;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 18px
+}
+
+aside ul.produtos li p span {
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+aside ul.produtos li p strong, aside ul.produtos li small {
+    font-size: 12px;
+    color:#777879;
+    font-weight: bold;
+    font-family: 'AvenirLTStd-Heavy' sans-serif;
+    
+    
+}
+
+aside ul.produtos li:first-child {
+    background-image: url(Imagens/bota.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+aside ul.produtos li:nth-child(2) {
+    background-image:url(Imagens/mochila.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+aside ul.produtos li:nth-child(3) {
+    background-image:url(Imagens/bolsa.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+aside ul.produtos li:nth-child(4) {
+    background-image:url(Imagens/scarf.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    border: none;
+}
+
+aside ul.total {
+    list-style: none;
+    
+}
+
+aside ul.total li {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    align-items: center;
+}
+
+aside ul.total {
+    padding: 0;
+    font-size: 12px;
+    font-family: 'AvenirLTStd-Roman', sans-serif;
+    color: #777879;
+    
+}
+
+aside ul.total .total {
+    font-weight: bold;
+    font-family: 'AvenirLTStd-Heavy', sans-serif;
+}
+
+aside ul.total small {
+    margin-right: 10px;
+}
+
+aside ul.total {
+    margin-top: 70px;
+}
+
+aside ul.total li {
+    padding-bottom: 10px;
+}
+
+aside ul.total .total {
+    margin-top: 10px;
+}
+
+aside ul.total li:first-child {
+    border-top: 1px solid #dfdfdf;
+    padding-top: 5px;
+}
+
+aside ul.total li:nth-child(3) {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Heavy';
+  src: url("Fonts/AvenirLTStd-Heavy.otf")
+  
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Roman';
+  src: url("Fonts/AvenirLTStd-Roman.otf") 
+ 
+}
