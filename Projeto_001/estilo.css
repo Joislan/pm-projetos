@@ -1,5 +1,6 @@
 
 body{
+    width: 100%;
     font-family: arial;
     font-size: 18px;
     padding: 12px;
@@ -8,11 +9,13 @@ body{
 }
 
 li {
+    width: 50%;
     list-style-type:none;
     background-color: #9b59b6;
     color:#fff;
     padding: 12px;
     margin-bottom: 12px;
+    margin: 10px auto;
      
     
 }
@@ -23,15 +26,20 @@ h1,h2 {
 }
 
 h2{
-    border: 1px solid #fff;
+    
     color: #666;
     text-transform: uppercase;
     font-size: 16px;
-    background-color: #fff;
+    
    
     
 }
 
 h1 {
     margin-bottom: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
 }

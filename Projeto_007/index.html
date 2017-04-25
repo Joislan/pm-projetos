@@ -1,82 +1,75 @@
 <!DOCTYPE html>
-
-<html lang="pt-br">
-
+<htm lang="pt-br">
     <head>
-        <title>Projeto 007</title>
         <meta charset="UTF-8">
+        <title>Projeto 007</title>
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    
     <body>
-        <header>
-            
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#conheca">Conheça</a>
-                    </li>
-                    <li>
-                        <a href="#depoimentos">Depoimentos</a>
-                    </li>
-                    <li>
-                        <a href="#convite">Convite</a>
-                    </li>    
-                </ul>    
-            </nav>    
+        <header id="header">
+            <div class="container">
+                <h1>
+                    <span>Titum</span>
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="#conheca">Conheça</a></li>
+                        <li><a href="depoimentos">Depoimentos</a></li>
+                        <li><a href="convite">Convite</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         
-        <section name="home" id="home">
-            <div id="texto1">
-                <h1>
-                    Conheça Titum
-                </h1>
-                <h2>
-                    A nova moda do momento.
-                </h2>
-                <a href="#conheca">
-                    <h2><span>Saiba mais</span></h2>
-                </a>
-            </div>    
+        <section id="topo">
+            <div class="container">
+                <div class="chamada">
+                    <h2>Conheça Titum</h2>
+                    <p>A nova moda do momento.</p>
+                    <a href="#conheca" class="botao">Saiba mais</a>
+                </div>
+            </div>
         </section>
         
-        <section name="conheca" id="conheca">
-            <div id="img2">
+        <section id="conheca">
+            <div class="container">
                 <img src="Imagens/image%20section%202.png">
-            </div>
-            <div id="texto2">
-                <h1>
-                    Afinal, o que é Titum?
-                </h1>
-                <p>
-                    Titum é o novo movimento, que veio para ficar. Lançado no último evento musical de maior prestígio mundial, Titum começou a fazer parte da cultura pop.
-                </p>
-                <a href="#convite">
-                    <h2><span>Quero Titum</span></h2>
-                </a>
+                <div class="chamada2">
+                    <h2>Afinal, o que é o Titum?</h2>
+                    <p>Titum é um novo movimento, que veio para ficar. Lançado no último evento musical de maior prestígio mundial, Titum começou a fazer parte da cultura pop.</p>
+                    <a href="#convite" class="botao">Quero Titum</a>
+                </div>
             </div>
         </section>
         
-        <section name="depoimentos" id="depoimentos">
-            <div id="texto3">
+        <section id="depoimento">
+            <div class="container">
                 <img src="Imagens/image%20section%203.png">
-                <p>
-                    "Titum foi, sem dúvida, a melhor coisa que aconteceu na minha vida. Eu não sei como consegui viver sem o Titum até hoje."<br><span>Cláudia Santos</span> 
-                </p>
-            </div>    
-        </section>
-        
-        <section name="convite" id="convite">
-            <div id="email">
-                <input type="email" placeholder="Receba um convite no email informado aqui">
+                <div class="depoimento">
+                    <p>“Titum foi sem dúvida a melhor coisa que aconteceu na minha vida. Eu não sei como consegui viver sem o Titum até hoje”<br>
+<strong>Cláudia Santos</strong></p>
+                </div>
             </div>
         </section>
         
-        <footer>
-           <span>&copy; 2016 Titum - Todos os direitos reservados.
-           </span>
+        <section id="convite">
+            <div class="container">
+                <form>
+                    <input type="email" placeholder="Receba um convite no email informado aqui">
+                    <button><span>enviar</span></button>
+                </form>
+            </div>
+        </section>
+        
+        <footer id="footer">
+            <div class="container">
+                <p>
+                    © 2016 Titum - Todos os direitos reservados.
+                </p>
+            </div>
         </footer>
     </body>
-</html>
+</htm>

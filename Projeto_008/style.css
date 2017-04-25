@@ -1,0 +1,205 @@
+body {
+    display: flex;
+    font-family: 'arial', sans-serif;
+}
+
+aside {
+    background-color: #242536;
+    color: #fff;
+    width: 200px;
+    height: 100vh;
+}
+
+aside h1 {
+    height: 60px;
+    margin: 0;
+    background-image: url(imagens/nucliot-logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #151524;
+}
+
+aside h1 span {
+    visibility: hidden;
+}
+
+aside nav ul li {
+    list-style: none;
+    padding-left: 15px;
+    margin-bottom: 1px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+aside nav ul li:hover {
+    background-color: #151524;
+    border-left: 3px solid #ffb946;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+aside nav small {
+    float: right;
+    margin-right: 6px;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+aside nav i {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+aside nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+aside nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section#principal {
+    width: 100%;
+    height: 100vh;
+}
+
+section#principal header {
+    background-color: #242536;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+section#principal header a {
+    padding-right: 20px;
+}
+
+section#principal .container {
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+section#principal .modulo .abas {
+    height: 60px;
+    
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 60px;
+    padding-left: 50px;
+}
+
+section#principal .modulo .abas a {
+    text-decoration: none;
+    color:#0f0f0f;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+section#principal .modulo .abas a:hover {
+    color: #ffbb47;
+    box-shadow: 0px -3px 0px #ffbb47 inset;
+} 
+
+section#principal .modulo .canvas {
+    
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #e6e6e6;
+    margin: 0;
+    padding: 20px;
+    
+    
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+form ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+form ul li input, form ul li select {
+    width: 400px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding-left: 20px;
+    
+}
+
+form ul li select {
+    color:#d7d7d7;
+}
+
+::-webkit-input-placeholder {
+    color: #d7d7d7;
+}
+
+form ul li {
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+form small {
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+form h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #161616;
+    margin-bottom: 10px;
+}
+
+form .checkbox li {
+    width: 400px;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+}
+
+form .checkbox input {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+form button {
+    width: 400px;
+    height: 40px;
+    background-color: #3aca60;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+form ul li.ok {
+    background-image: url(imagens/-.png);
+    background-repeat: no-repeat;
+    background-position: top 10px right;
+    width: 430px;
+}
+
