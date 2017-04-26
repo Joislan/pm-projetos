@@ -64,6 +64,11 @@ body .fundo .container {
     font-weight: 600;
 }
 
+.container header li a {
+    text-decoration: none;
+    color: inherit;
+}
+
 section {
     width: 381px;
     height: 508px;
@@ -89,9 +94,14 @@ section ul.bandeiras li {
     display: inline-block;
     width: 109px;
     height: 96px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
+section ul.bandeiras li:hover {
+    background-color: #f5f9fd;
+    border: 1px solid #d2e3f7;
+    
+}
 section ul.bandeiras li a {
     width: 109px;
     height: 96px;
@@ -175,6 +185,12 @@ button {
     margin-top: -50px;
     border-radius: 2px;
     border: none;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
 }
 
 section ul.form li input.cvc {
