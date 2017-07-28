@@ -1,0 +1,144 @@
+body {
+    font-family: 'oswald', sans-serif;
+    width: 100%;
+}
+
+body .content {
+    margin: auto;
+    width: 92%;
+    box-shadow: 0px 1px 1px black;
+}
+
+#campoAltura {
+    background-color: #3498db;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+#campoAltura label {
+    text-align: left;
+    color: #fff;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 1.250em;
+    text-transform:uppercase;
+}
+
+#altura {
+    background: none;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    font-size: 6.250em;
+    color: #fff;
+    font-weight: 300;
+    height: 100px;
+}
+
+#campoPeso {
+    background-color: #34495e;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+#campoPeso label {
+    text-align: left;
+    color: #fff;
+    text-transform:uppercase;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 1.250em;
+}
+
+#peso {
+    background: none;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    font-size: 6.250em;
+    color: #fff;
+    font-weight: 300;
+    height: 100px;
+}
+
+#campoResultado {
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+    display: block;
+    padding: 30px;
+}
+
+#englobaResultado {
+    display: flex;
+}
+
+#imgContainer a {
+    height: 100%;
+}
+
+#imgContainer {
+    height: 100%;
+    width: 20%;
+    padding-top: 20px;
+}
+
+
+#resultadoContainer{
+    height: 100%;
+    width: 80%;
+}
+
+#resultado {
+    background: none;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    font-size: 3.125em;
+    color: #4a4a4a;
+    font-weight: 300;
+    height: 59px;
+    padding-bottom: 2px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#status {
+    background: none;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    font-size: 1.100em;
+    text-transform:uppercase;
+    color: #4a4a4a;
+    font-weight: 300;
+    height: 59px;
+    padding-top: 0;
+    text-align: left;
+}
+
+#campoResultado button {
+    text-align: center;
+    background-color: #27ae60;
+    font-size: 4.500em;
+    text-transform:uppercase;
+    color: #fff;
+    font-weight: 300;
+    border: none;
+    box-shadow: 0px 6px 0px 0px #245b3b;
+    border-radius: 4px;
+    padding: 20px 60px 20px 60px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.displayResultado {
+    display: flex;
+}

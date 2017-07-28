@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Customer consultoria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="principal.css">
+  <link rel="stylesheet" type="text/css" media="(min-width: 1000px)" href="desktop.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+  
+<body>
+  <nav class="navbar">
+      <div class="navbar-brand">
+        <a class="navbar-item" id="containerLogo">
+          <h1><span>customer</span></h1>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navMenu" class="navbar-menu">
+         <div class="navbar-start"></div>
+         <ul class="navbar-end">
+            <li><a class="navbar-item" href="#">Home</a></li>
+            <li><a class="navbar-item" href="#quemSomos">Quem somos</a></li>
+            <li><a class="navbar-item" href="#servicos">Serviços</a></li>
+            <li><a class="navbar-item" href="#footerBody">Contato</a></li>
+            <li><a class="navbar-item" href="#">Login</a></li>
+         </ul>
+      </div>
+  </nav>
+  
+  <div class="columns">
+      <div class="column is-8" id="home">
+          <div class="content">
+              <h1>Pesquisa, auditoria <br>e gerenciamento de projetos.</h1>
+              <a href="#servicos"><button class="button">Conheça</button></a>
+          </div>
+      </div>
+      <div class="column is-4" id="homeForm">
+          <div class="content">
+            <h5><span>CADASTRE-SE</span> PARA UMA</h5>
+            <h2>CONSULTA GRÁTIS</h2>
+          </div>
+        <form method="post" action="contato.php">
+            <div class="field">
+              <label class="label">Nome</label>
+              <div class="control">
+                <input class="input" type="text" id="Nome">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Empresa</label>
+              <div class="control">
+                <input class="input" type="text" id="Empresa">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input" type="email" id="Email">
+              </div>    
+            </div>
+
+            <div class="field">
+              <label class="label">Telefone</label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input" type="tel" id="Telefone">
+              </div>    
+            </div>
+
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button">Enviar</button>
+              </div>
+            </div>
+        </form>
+      </div>
+  </div>
+  
+  <div class="columns" id="quemSomos">
+      <div class="column">
+         <div class="gradient"></div>
+         <div class="content">
+             <p>A Customer consultoria é formada por profissionais com experiência nos mais variados modelos de gestão, com método de trabalho focado em resultados, transparência e análise de dados com o que há de mais moderno no mercado. A filosofia de trabalho é pautada em dois pilares principais: pessoas e processos. Conte com nossa habilidade e experiência em entregar resultados e conheça nossos serviços.</p>
+         </div>
+      </div>
+  </div>    
+  
+  <div class="columns" id="servicos">
+      <div class="column">
+         <div class="gradient"></div>
+         <div class="columns" id="englobaServicos">
+             <div class="column" id="listaServicos">
+                 
+                  <ul class="listaServicos1">
+                    
+                    <li class="box" id="box1">
+                      <a class="openModal1" id="openModal1">Soluções para shopping centers</a>
+                    </li> 
+                     
+                    <div class="modal modal1" id="modal1">
+                      <div class="modal-background"></div>
+                      <div class="modal-card">
+                        <header class="modal-card-head">
+                          <p class="modal-card-title">Soluções para shopping centers</p>
+                        </header>
+                        <section class="modal-card-body">
+                          <ul>
+                            <li>Identificação de concorrência direta e seus diferenciais;</li>
+                            <li>identificar se seus investimentos estão refletindo no ponto de venda;</li>
+                            <li>Análise de pontos fortes e fracos indicando possíveis melhorias;</li>
+                            <li>Contribuir com o resultado da operação comercial do cliente;</li>
+                            <li>Permitir maior controle dos investimentos no varejo através de informações relevantes;</li>
+                            <li>Auxiliar o lojista na negociação de melhores espaços e condições em shoppings através de análise de fluxo e de dados estatísticos;</li>
+                          </ul>
+                        </section>
+                        <footer class="modal-card-foot">
+                          <button class="fechar button">Fechar</button>    
+                        </footer>
+                      </div>
+                    </div>
+                    
+                    <li class="box" id="box2">
+                      <a class="openModal2" id="openModal2">Pesquisa</a>
+                    </li> 
+                     
+                    <div class="modal modal2" id="modal2">
+                      <div class="modal-background"></div>
+                      <div class="modal-card">
+                        <header class="modal-card-head">
+                          <p class="modal-card-title">Pesquisa</p>
+                        </header>
+                        <section class="modal-card-body">
+                          <ul>
+                            <li>Determinação de preferência e rejeição a produtos e serviços;</li>
+                            <li>Lembrança de marca;</li>
+                            <li>Impacto da marca nas decisões de compra de determinada categoria de produto e serviço e na satisfação do cliente e do fornecedor;</li>
+                            <li>Estudo e avaliação de impacto de propagandas de campanha, como apreensão de mensagem, compreensão dos objetivos, bem como de anúncios e promoções;</li>
+                            <li>Avaliação das experiências de compra e pós-compra de determinada categoria de produto ou serviço.</li>
+                          </ul>
+                        </section>
+                        <footer class="modal-card-foot">
+                          <button class="fechar button">Fechar</button>    
+                        </footer>
+                      </div>
+                    </div>
+                    
+                    <li class="box" id="box3">
+                      <a class="openModal3" id="openModal3">Auditoria</a>
+                    </li> 
+                     
+                    <div class="modal modal3" id="modal3">
+                      <div class="modal-background"></div>
+                      <div class="modal-card">
+                        <header class="modal-card-head">
+                          <p class="modal-card-title">Auditoria</p>
+                        </header>
+                        <section class="modal-card-body">
+                          <ul>
+                            <li>Monitoramento no ponto de venda;</li>
+                            <li>Auditoria de ponto de venda;</li>
+                            <li>Comprador misterioso;</li>
+                            <li>Cadeia de suprimentos;</li>
+                            <li>Auditoria de estoque.</li>
+                          </ul>
+                        </section>
+                        <footer class="modal-card-foot">
+                          <button class="fechar button">Fechar</button>    
+                        </footer>
+                      </div>
+                    </div>
+                    
+                 </ul>
+                 
+                 <ul class="listaServicos2">
+                                  
+                    <li class="box" id="box4">
+                      <a class="openModal4" id="openModal4">Gerenciamento de projetos</a>
+                    </li> 
+                     
+                    <div class="modal modal4" id="modal4">
+                      <div class="modal-background"></div>
+                      <div class="modal-card">
+                        <header class="modal-card-head">
+                          <p class="modal-card-title">Gerenciamento de projetos</p>
+                        </header>
+                        <section class="modal-card-body">
+                          <ul>
+                            <li>Criação e coordenação de pool de recursos;</li>
+                            <li>Identificação e desenvolvimento de metodologia, melhores práticas, políticas, normas, procedimentos e templates de documentos;</li>
+                            <li>Repositório e gerenciamento de riscos compartilhados entre projetos;</li>
+                            <li>Definição e gerenciamento de ferramentas;</li>
+                            <li>Coordenação de comunicação entre projetos;</li>
+                            <li>Garantir escopo, prazo e custo do projeto dentro das necessidades do cliente.</li>
+                          </ul>
+                        </section>
+                        <footer class="modal-card-foot">
+                          <button class="fechar button">Fechar</button>    
+                        </footer>
+                      </div>
+                    </div>
+                    
+                    <li class="box" id="box5">
+                      <a class="openModal5" id="openModal5">Treinamento e capacitação</a>
+                    </li> 
+                     
+                    <div class="modal modal5" id="modal5">
+                      <div class="modal-background"></div>
+                      <div class="modal-card">
+                        <header class="modal-card-head">
+                          <p class="modal-card-title">Treinamento e capacitação</p>
+                        </header>
+                        <section class="modal-card-body">
+                          <ul>
+                            <li>Treinamento e coaching para gerentes de projeto;</li>
+                            <li>Curso de Excel avançado;</li>
+                            <li>Curso de inglês básico e avançado.</li>
+                          </ul>
+                        </section>
+                        <footer class="modal-card-foot">
+                          <button class="fechar button">Fechar</button>    
+                        </footer>
+                      </div>
+                    </div>
+                    
+                    <li class="box" id="box6">
+                      <a class="openModal6" id="openModal6">Recrutamento e seleção</a>
+                    </li> 
+                     
+                    <div class="modal modal6" id="modal6">
+                      <div class="modal-background"></div>
+                      <div class="modal-card">
+                        <header class="modal-card-head">
+                          <p class="modal-card-title">Recrutamento e seleção</p>
+                        </header>
+                        <section class="modal-card-body">
+                          <ul>
+                            <li>Terceirização de mão de obra;</li>
+                            <li>Central de serviços compartilhados.</li>
+                          </ul>
+                        </section>
+                        <footer class="modal-card-foot">
+                          <button class="fechar button">Fechar</button>    
+                        </footer>
+                      </div>
+                    </div>
+                    
+                 </ul>
+                                
+             </div>
+         </div>
+      </div>
+  </div>
+  
+  <div class="columns" id="clientes">
+      <div class="column">
+         <div class="gradient"></div>
+         <div class="content"><h3>Clientes e parceiros</h3></div>
+         <ul class="clientesParceiros">
+             <li class="cliente">
+               <a href="http://www.cosbel.com.br/" target="_blank"><img class="cosbel" src="Imagens\cosbel.png" id="img1" ></a>
+             </li>
+             <li class="cliente">
+               <a href="http://offoutletfortaleza.com.br/novo/index.asp?gclid=CJqR_8n3uNQCFQ4IkQodw2IJAA" target="_blank"><img class="off" src="Imagens\off outlet.png" id="img2"></a>
+             </li>
+         </ul>
+      </div>
+  </div>
+                   
+  <div class="columns" id="finalPage">
+      <div class="column">
+         <div class="gradient"></div>
+         <div class="content"><h3>Alcance todo o potencial <br>do seu negócio</h3></div>
+         <a href="#homeForm"><button class="button">Consulta grátis</button></a>
+      </div>
+  </div>
+                   
+  <footer class="footer" id="footerBody">
+    <div class="container1">
+      <div class="content has-text-left">
+        <p><strong>Customer consultoria</strong></p>
+        <p>Avenida Bezerra de Menezes, 1680 A, Presidente Kennedy.</p>
+        <p>Fortaleza - CE.  CEP 60325-002</p>
+        <p>Fone: (85) 99665-1803 | (85) 98614-2469</p>
+      </div>
+    </div>
+    <div class="container2">
+        <p><i class="fa fa-envelope" aria-hidden="true"></i>consultoriacustomer@gmail.com</p>
+        <p><a href="https://www.facebook.com/customerconsultoria/?ref=br_rs" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i>customerconsultoria</a></p>
+        <p><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a></p>
+    </div>
+</footer>
+                    
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="Javascript.js"></script>
+    
+</body>
+</html>
