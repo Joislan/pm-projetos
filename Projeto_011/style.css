@@ -24,7 +24,7 @@ body .content {
     font-weight: 300;
     padding-left: 20px;
     padding-top: 10px;
-    font-size: 1.250em;
+    font-size: 20px;
     text-transform:uppercase;
 }
 
@@ -33,7 +33,7 @@ body .content {
     border: none;
     box-shadow: none;
     text-align: center;
-    font-size: 6.250em;
+    font-size: 100px;
     color: #fff;
     font-weight: 300;
     height: 100px;
@@ -53,7 +53,7 @@ body .content {
     font-weight: 300;
     padding-left: 20px;
     padding-top: 10px;
-    font-size: 1.250em;
+    font-size: 20px;
 }
 
 #peso {
@@ -61,7 +61,7 @@ body .content {
     border: none;
     box-shadow: none;
     text-align: center;
-    font-size: 6.250em;
+    font-size: 100px;
     color: #fff;
     font-weight: 300;
     height: 100px;
@@ -100,7 +100,7 @@ body .content {
     border: none;
     box-shadow: none;
     text-align: center;
-    font-size: 3.125em;
+    font-size: 50px;
     color: #4a4a4a;
     font-weight: 300;
     height: 59px;
@@ -114,7 +114,7 @@ body .content {
     border: none;
     box-shadow: none;
     text-align: center;
-    font-size: 1.100em;
+    font-size: 17x;
     text-transform:uppercase;
     color: #4a4a4a;
     font-weight: 300;
@@ -126,7 +126,7 @@ body .content {
 #campoResultado button {
     text-align: center;
     background-color: #27ae60;
-    font-size: 4.500em;
+    font-size: 72px;
     text-transform:uppercase;
     color: #fff;
     font-weight: 300;
