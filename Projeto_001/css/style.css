@@ -1,0 +1,103 @@
+
+
+body {
+    font-family: 'oswald', sans-serif;
+    width: 100%;
+}
+
+
+input::placeholder {
+   color: #fff;
+   opacity: 0.2;
+   font-family: "Oswald", sans-serif;
+   font-weight: 300;
+ }
+
+.card {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.altura {
+    background-color: #3498db;
+}
+
+.peso {
+    background-color: #34495e;
+}
+
+.card label {
+    text-align: left;
+    font-size: 1.250em;
+    font-weight: 300;
+}
+
+.card input {
+    font-size: 6.250em;
+    font-weight: 300;
+    background: none;
+    text-align: center;
+    border: none;
+    color: #fff;
+}
+
+.resultado {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.resultado a {
+    background-image: url(../imagens/shape.png);
+    background-repeat: no-repeat;
+    height: 73px;
+    width: 41px;
+    margin-top: 25px;
+}
+
+.resultado span {
+    visibility: hidden;
+}
+
+.resultado small {
+    font-size: 3.125em;
+    font-weight: 300;
+}
+
+.resultado p {
+    font-size: 1.500em;
+    font-weight: 300;
+}
+
+.resultadoIMC {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.conteudoResultado {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.resultado button {
+    background-color: #27ae60;
+    font-size: 4.500em;
+    font-weight: 300;
+    color: #fff;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 6px 0px 0px #245b3b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
